@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener{
     
     public function onJoin(PlayerJoinEvent $event){
         $player = $event->getPlayer();
-        $this->getServer()->getScheduler()->scheduleDelayedTask(new ElderGuardianTask($this, $player), 30);
+        $this->getScheduler()->scheduleDelayedTask(new ElderGuardianTask($this, $player), 30);
     }
     
     public function onDisable(){

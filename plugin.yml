@@ -1,8 +1,6 @@
 name: GuardianJoinEffect
-version: 0.2
+version: 0.3
 author: Enrick3344
 api:
-- 3.0.0-ALPHA10
-- 3.0.0-ALPHA11
-- 3.0.0-ALPHA12
+- 3.0.0
 main: GuardianJoinEffect\Main
